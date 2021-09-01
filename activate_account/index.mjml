@@ -1,0 +1,51 @@
+<mjml>
+  <mj-head>
+    <mj-font href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;600&display=swap" name="Sarabun" />
+    <mj-font href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" name="Inter" />
+    <mj-attributes>
+      <mj-class name="header_brand" align="center" font-weight="600" font-family="Sarabun" font-size="20px" color="#00AB55" />
+      <mj-class name="header_msg" align="center" font-weight="300" font-family="Sarabun" font-size="13px" color="#00AB55" />
+      <mj-class name="body_title" align="center" font-weight="600" font-family="Inter" font-size="32px" line-height="1.4" color="#333333" />
+      <mj-class name="body_subtitle" align="center" font-weight="300" font-family="Inter" font-size="22px" line-height="1.4" color="#333333" />
+      <mj-class name="body_text" align="center" font-family="Inter" font-size="14px" line-height="1.4" />
+      <mj-class name="footer_text" align="center" font-family="Inter" font-size="12px" line-height="1.4" color="#999999" />
+      <mj-column vertical-align="middle" />
+      <mj-button background-color="#00AB55" font-family="Inter" font-size="16px" border-radius="18px" height="46px" />
+    </mj-attributes>
+    <mj-style inline="inline"> a {color: #00AB55;} .gray-link a {color: #999999;} </mj-style>
+  </mj-head>
+  <mj-body background-color="#F6F4EF">
+    <mj-section background-color="#FFFFFF" full-width="full-width">
+      <mj-column>
+        <mj-text mj-class="header_brand">
+          <a href="https://komentory.com/" target="_blank">Komentory</a>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text mj-class="header_msg">Your online focus group<br />for everything.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image width="220px" src="https://cdn.komentory.com/media/w/main_to-left-side.svg" alt="komentory woman" />
+        <mj-spacer />
+        <mj-text mj-class="body_title">Hey, {{first_name}} 👋</mj-text>
+        <mj-text mj-class="body_subtitle">You're almost there! Thank you for signing up.</mj-text>
+        <mj-spacer />
+        <mj-text mj-class="body_text">To confirm your account, simply click on the button below:</mj-text>
+        <mj-button href="{{activate_url}}">Activate my account</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="body_text">If the button doesn’t work, copy this URL into your browser:<br /><a href="{{activate_url}}" target="_blank">{{activate_url}}</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="footer_text" css-class="gray-link">Don't want to receive such letters in the future?<br />No problem! Click to <a href="{{unsubscribe_url}}" target="_blank">unsubscribe</a>.</mj-text>
+        <mj-image href="https://komentory.com/" target="_blank" width="44px" src="https://cdn.komentory.com/favicons/bg-transparent_border-solid.svg" alt="komentory logo" />
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
