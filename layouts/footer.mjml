@@ -1,0 +1,6 @@
+<mj-section>
+  <mj-column>
+    <mj-text mj-class="footer_text" css-class="gray-link">Don't want to receive such letters in the future?<br />No problem! Click to <a href="{{unsubscribe_url}}" target="_blank">unsubscribe</a>.</mj-text>
+    <mj-image href="https://komentory.com/" target="_blank" width="44px" src="https://cdn.komentory.com/favicons/bg-transparent_border-solid.svg" alt="komentory logo" />
+  </mj-column>
+</mj-section>

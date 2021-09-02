@@ -1,0 +1,10 @@
+<mj-section background-color="#FFFFFF" full-width="full-width">
+  <mj-column>
+    <mj-text mj-class="header_brand">
+      <a href="https://komentory.com/" target="_blank">Komentory</a>
+    </mj-text>
+  </mj-column>
+  <mj-column>
+    <mj-text mj-class="header_msg">Your online focus group<br />for everything.</mj-text>
+  </mj-column>
+</mj-section>

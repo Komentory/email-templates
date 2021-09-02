@@ -1,0 +1,23 @@
+<mjml>
+  <mj-include path="../layouts/header.mjml" />
+  <mj-body>
+    <mj-include path="../layouts/brand.mjml" />
+    <mj-section>
+      <mj-column>
+        <mj-image width="220px" src="https://cdn.komentory.com/media/m/main_to-right-side.svg" alt="komentory man" />
+        <mj-spacer />
+        <mj-text mj-class="body_title">Forgot your password? 🤔</mj-text>
+        <mj-text mj-class="body_subtitle">Not to worry, let's get you a new one.</mj-text>
+        <mj-spacer />
+        <mj-text mj-class="body_text">To reset your password, simply click on the button below:</mj-text>
+        <mj-button href="{{password_recovery_url}}">Reset password</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="body_text">If the button doesn’t work, copy this URL into your browser:<br /><a href="{{password_recovery_url}}" target="_blank">{{password_recovery_url}}</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-include path="../layouts/footer.mjml" />
+  </mj-body>
+</mjml>
