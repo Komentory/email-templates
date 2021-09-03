@@ -1,0 +1,31 @@
+<mjml>
+  <mj-include path="../layouts/header.mjml" />
+  <mj-body>
+    <mj-section background-color="#F6F4EF" full-width="full-width">
+      <mj-column>
+        <mj-text css-class="gray-link" color="#999999" align="center" font-size="10px">Is the content of the email not showing? <a href="{{get_started_url}}" target="_blank">View online version</a>.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-include path="../layouts/brand.mjml" />
+    <mj-section>
+      <mj-column>
+        <mj-image height="220px" src="https://cdn.komentory.com/media/group/main_hands-up.svg" alt="komentory group" />
+        <mj-spacer />
+        <mj-text mj-class="body_title">Welcome, {{first_name}} 🎉</mj-text>
+        <mj-text mj-class="body_subtitle">We are so happy to have you on board.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" full-width="full-width">
+      <mj-column>
+        <mj-text mj-class="body_text">To start using Komentory, simply click on the button below:</mj-text>
+        <mj-button href="{{activate_url}}">Get started</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="body_text">If the button doesn’t work, copy this URL into your browser:<br /><a href="{{get_started_url}}" target="_blank">{{get_started_url}}</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-include path="../layouts/footer.mjml" />
+  </mj-body>
+</mjml>

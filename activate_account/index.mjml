@@ -1,14 +1,22 @@
 <mjml>
   <mj-include path="../layouts/header.mjml" />
   <mj-body>
+    <mj-section background-color="#F6F4EF" full-width="full-width">
+      <mj-column>
+        <mj-text css-class="gray-link" color="#999999" align="center" font-size="10px">Is the content of the email not showing? <a href="{{activate_url}}" target="_blank">View online version</a>.</mj-text>
+      </mj-column>
+    </mj-section>
     <mj-include path="../layouts/brand.mjml" />
     <mj-section>
       <mj-column>
-        <mj-image width="220px" src="https://cdn.komentory.com/media/w/main_to-left-side.svg" alt="komentory woman" />
+        <mj-image height="220px" src="https://cdn.komentory.com/media/woman/main_hand_to-left-side.svg" alt="komentory woman" />
         <mj-spacer />
         <mj-text mj-class="body_title">Hey, {{first_name}} 👋</mj-text>
         <mj-text mj-class="body_subtitle">You're almost there! Thank you for signing up.</mj-text>
-        <mj-spacer />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" full-width="full-width">
+      <mj-column>
         <mj-text mj-class="body_text">To confirm your account, simply click on the button below:</mj-text>
         <mj-button href="{{activate_url}}">Activate my account</mj-button>
       </mj-column>
