@@ -6,7 +6,7 @@
         <mj-text css-class="gray-link" color="#999999" align="center" font-size="10px">Is the content of the email not showing? <a href="{{get_started_url}}" target="_blank">View online version</a>.</mj-text>
       </mj-column>
     </mj-section>
-    <mj-include path="../layouts/brand.mjml" />
+    <mj-include path="../layouts/brand_header.mjml" />
     <mj-section>
       <mj-column>
         <mj-image height="220px" src="https://cdn.komentory.com/media/group/main_hands-up.svg" alt="komentory group" />

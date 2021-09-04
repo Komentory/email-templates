@@ -1,6 +1,6 @@
 <mj-section>
   <mj-column>
-    <mj-text mj-class="footer_text" css-class="gray-link">Don't want to receive such letters in the future?<br />No problem! Click to <a href="{{unsubscribe_url}}" target="_blank">unsubscribe</a>.</mj-text>
-    <mj-image href="https://komentory.com/" target="_blank" width="44px" src="https://cdn.komentory.com/favicons/bg-transparent_border-solid.svg" alt="komentory logo" />
+    <mj-text mj-class="footer_text" css-class="gray-link">You’re receiving this email because you’re awesome, and you’ve signed up with Komentory.<br />Any questions about project? Get in touch with us at <a href="mailto:support@komentory.com">support@komentory.com</a>.<br />You can manage your email subscriptions in your personal account <a href="https://app.komentory.com/#/account/settings/subscriptions" target="_blank">settings</a>.</mj-text>
+    <mj-include path="./brand_footer.mjml" />
   </mj-column>
 </mj-section>
