@@ -1,6 +1,6 @@
 <mj-section>
   <mj-column>
-    <mj-text mj-class="footer_text" css-class="gray-link">You’re receiving this email because you’re awesome, and you’ve signed up with Komentory.<br />Any questions about project? Get in touch with us at <a href="mailto:support@komentory.com">support@komentory.com</a>.<br />You can <a href="https://app.komentory.com/#/account/settings/subscriptions" target="_blank">manage</a> your email subscriptions in your personal account settings.</mj-text>
+    <mj-text mj-class="footer_text" css-class="gray-link">You’re receiving this email because you’re awesome, and you’ve signed up with Komentory.<br />Any questions about project? Get in touch with us at <a href="mailto:team@komentory.com">team@komentory.com</a>.<br><br>You can <a href="{{settings_subscriptions}}" target="_blank">manage</a> your email subscriptions in your personal account settings.<br>Of course, you’re free to completely <a href="{{{ pm:unsubscribe }}}">unsubscribe</a> from all of these emails.</mj-text>
     <mj-include path="./brand_footer.mjml" />
   </mj-column>
 </mj-section>
