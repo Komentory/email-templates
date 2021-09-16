@@ -13,12 +13,12 @@
     <mj-section background-color="#ffffff" full-width="full-width">
       <mj-column>
         <mj-text mj-class="body_text">To start using Komentory, simply click on the button below:</mj-text>
-        <mj-button href="{{activate_url}}">Get started</mj-button>
+        <mj-button href="https://app.komentory.com/#/get-started">Get started</mj-button>
       </mj-column>
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-text mj-class="body_text">If the button doesn’t work, copy this URL into your browser:<br /><a href="{{get_started_url}}" target="_blank">{{get_started_url}}</a></mj-text>
+        <mj-text mj-class="body_text">If the button doesn’t work, copy this URL into your browser:<br /><a href="https://app.komentory.com/#/get-started" target="_blank">https://app.komentory.com/#/get-started</a></mj-text>
       </mj-column>
     </mj-section>
     <mj-include path="./layouts/footer.mjml" />
