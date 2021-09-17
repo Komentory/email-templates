@@ -1,0 +1,20 @@
+<mjml>
+  <mj-include path="./layouts/header.mjml" />
+  <mj-body>
+    <mj-include path="./layouts/brand_header.mjml" />
+    <mj-section>
+      <mj-column>
+        <mj-image width="400px" src="https://cdn.komentory.com/media/emails/account-suspended.svg" alt="komentory account suspended" />
+        <mj-spacer />
+        <mj-text mj-class="body_title">Account has been suspended... 😕</mj-text>
+        <mj-text mj-class="body_subtitle">Unfortunately, at this time we have to suspend the functionality of your account to create new projects and submit answers.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" full-width="full-width">
+      <mj-column>
+        <mj-text mj-class="body_text">Reason for suspending: {{account_suspended_reason}}</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./layouts/footer.mjml" />
+  </mj-body>
+</mjml>

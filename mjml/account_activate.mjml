@@ -4,7 +4,7 @@
     <mj-include path="./layouts/brand_header.mjml" />
     <mj-section>
       <mj-column>
-        <mj-image height="200px" src="https://cdn.komentory.com/media/emails/account-activate.svg" alt="komentory account activated" />
+        <mj-image width="400px" src="https://cdn.komentory.com/media/emails/account-activate.svg" alt="komentory account activated" />
         <mj-spacer />
         <mj-text mj-class="body_title">Hey, {{first_name}} 👋</mj-text>
         <mj-text mj-class="body_subtitle">You're almost there! Thank you for signing up.</mj-text>

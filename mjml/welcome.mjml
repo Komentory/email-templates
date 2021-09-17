@@ -4,7 +4,7 @@
     <mj-include path="./layouts/brand_header.mjml" />
     <mj-section>
       <mj-column>
-        <mj-image height="200px" src="https://cdn.komentory.com/media/emails/welcome.svg" alt="komentory welcome" />
+        <mj-image width="400px" src="https://cdn.komentory.com/media/emails/welcome.svg" alt="komentory welcome" />
         <mj-spacer />
         <mj-text mj-class="body_title">Welcome, {{first_name}} 🎉</mj-text>
         <mj-text mj-class="body_subtitle">We are so happy to have you on board.</mj-text>
