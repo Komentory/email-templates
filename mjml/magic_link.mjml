@@ -4,16 +4,16 @@
     <mj-include path="./layouts/brand_header.mjml" />
     <mj-section>
       <mj-column>
-        <mj-image width="400px" src="https://erqwdnzccjvjqxtyyjvs.supabase.in/storage/v1/object/public/media/emails/password-reset.png" alt="komentory password reset" />
+        <mj-image width="400px" src="https://erqwdnzccjvjqxtyyjvs.supabase.in/storage/v1/object/public/media/emails/magic-link.png" alt="komentory magic link" />
         <mj-spacer />
-        <mj-text mj-class="body_title">Forgot your password? 🤔</mj-text>
-        <mj-text mj-class="body_subtitle">Not to worry, let's get you a new one.</mj-text>
+        <mj-text mj-class="body_title">Hey, friend! 👋</mj-text>
+        <mj-text mj-class="body_subtitle">This is your magical login link.</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" full-width="full-width">
       <mj-column>
-        <mj-text mj-class="body_text">To reset your password, simply click on the button below:</mj-text>
-        <mj-button href="{{ .ConfirmationURL }}">Reset password</mj-button>
+        <mj-text mj-class="body_text">To login to your account, simply click the button below:</mj-text>
+        <mj-button href="{{ .ConfirmationURL }}">Login to my account</mj-button>
       </mj-column>
     </mj-section>
     <mj-section>

@@ -1,17 +1,16 @@
 <mj-head>
   <mj-title>Email from Komentory project</mj-title>
-  <mj-font href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;600&display=swap" name="Sarabun" />
   <mj-font href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" name="Inter" />
   <mj-attributes>
-    <mj-class name="header_brand" align="center" font-weight="600" font-family="Sarabun" font-size="20px" color="#00AB55" />
-    <mj-class name="header_msg" align="center" font-weight="300" font-family="Sarabun" font-size="13px" color="#00AB55" />
+    <mj-class name="header_brand" align="center" font-weight="600" font-family="Inter" font-size="20px" color="#00AB55" />
+    <mj-class name="header_msg" align="center" font-weight="300" font-family="Inter" font-size="13px" color="#00AB55" />
     <mj-class name="body_title" align="center" font-weight="600" font-family="Inter" font-size="32px" line-height="1.4" color="#333333" />
     <mj-class name="body_subtitle" align="center" font-weight="300" font-family="Inter" font-size="22px" line-height="1.4" color="#333333" />
     <mj-class name="body_text" align="center" font-family="Inter" font-size="14px" line-height="1.4" />
     <mj-class name="footer_text" align="center" font-family="Inter" font-size="12px" line-height="1.4" color="#999999" />
     <mj-body background-color="#F6F4EF" />
     <mj-column vertical-align="middle" />
-    <mj-button background-color="#00AB55" font-family="Inter" font-size="16px" border-radius="18px" height="46px" />
+    <mj-button background-color="#00AB55" font-family="Inter" font-size="16px" border-radius="12px" height="46px" />
   </mj-attributes>
   <mj-style inline="inline"> a {color: #00AB55;} .gray-link a {color: #999999;} </mj-style>
 </mj-head>

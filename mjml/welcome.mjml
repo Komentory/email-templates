@@ -4,7 +4,7 @@
     <mj-include path="./layouts/brand_header.mjml" />
     <mj-section>
       <mj-column>
-        <mj-image width="400px" src="https://erqwdnzccjvjqxtyyjvs.supabase.in/storage/v1/object/public/media/emails/welcome.svg" alt="komentory welcome" />
+        <mj-image width="400px" src="https://erqwdnzccjvjqxtyyjvs.supabase.in/storage/v1/object/public/media/emails/welcome.png" alt="komentory welcome" />
         <mj-spacer />
         <mj-text mj-class="body_title">Welcome, friend! 🎉</mj-text>
         <mj-text mj-class="body_subtitle">We are so happy to have you on board.</mj-text>
