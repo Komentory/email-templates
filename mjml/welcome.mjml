@@ -4,21 +4,21 @@
     <mj-include path="./layouts/brand_header.mjml" />
     <mj-section>
       <mj-column>
-        <mj-image width="400px" src="https://cdn.komentory.com/media/emails/welcome.svg" alt="komentory welcome" />
+        <mj-image width="400px" src="https://erqwdnzccjvjqxtyyjvs.supabase.in/storage/v1/object/public/media/emails/welcome.svg" alt="komentory welcome" />
         <mj-spacer />
-        <mj-text mj-class="body_title">Welcome, {{first_name}} 🎉</mj-text>
+        <mj-text mj-class="body_title">Welcome, friend! 🎉</mj-text>
         <mj-text mj-class="body_subtitle">We are so happy to have you on board.</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" full-width="full-width">
       <mj-column>
         <mj-text mj-class="body_text">To start using Komentory, simply click on the button below:</mj-text>
-        <mj-button href="https://app.komentory.com/#/get-started">Get started</mj-button>
+        <mj-button href="{{ .ConfirmationURL }}">Get started</mj-button>
       </mj-column>
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-text mj-class="body_text">If the button doesn’t work, copy this URL into your browser:<br /><a href="https://app.komentory.com/#/get-started" target="_blank">https://app.komentory.com/#/get-started</a></mj-text>
+        <mj-text mj-class="body_text">If the button doesn’t work, copy this URL into your browser:<br /><a href="{{ .ConfirmationURL }}" target="_blank">{{ .ConfirmationURL }}</a></mj-text>
       </mj-column>
     </mj-section>
     <mj-include path="./layouts/footer.mjml" />
